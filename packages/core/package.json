@@ -1,6 +1,6 @@
 {
   "name": "@react-page/core",
-  "version": "0.2.0-henrylatour.0",
+  "version": "0.2.1-henrylatour.0",
   "main": "./lib/index.js",
   "module": "./lib-es/index.js",
   "typings": "./lib/index.d.ts",
