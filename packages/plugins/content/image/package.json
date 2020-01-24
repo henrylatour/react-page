@@ -1,6 +1,6 @@
 {
   "name": "@react-page/plugins-image",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/index.js",
   "module": "./lib-es/index.js",
   "typings": "./lib/index.d.ts",
@@ -18,15 +18,15 @@
     "clean": "rimraf \"lib\" && rimraf \"lib-es\""
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
     "@material-ui/core": "*",
     "@material-ui/icons": "*",
-    "@material-ui/styles": "*"
+    "@material-ui/styles": "*",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@react-page/core": "0.0.0",
-    "@react-page/ui": "0.0.0"
+    "@react-page/core": "^0.0.1",
+    "@react-page/ui": "^0.0.1"
   },
   "publishConfig": {
     "access": "public"
