@@ -53,5 +53,5 @@
     "@types/loadable__component": "^5.10.0",
     "@types/uuid": "^3.4.4"
   },
-  "gitHead": "7791d4097ec28b48ea06a3f7a8ef39c02e73a3f6"
+  "gitHead": "f19f607e8e51819b12db62b1d124de13082569d3"
 }
