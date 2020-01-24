@@ -14,7 +14,6 @@ export default pluginFactories.createComponentPlugin<{
       <span style={{ color: props.color }}>{props.children}</span>
     );
   },
-  /* this defines schema for plugins */
   schema: {
     type: 'object',
     required: ['color'],
