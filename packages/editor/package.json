@@ -1,6 +1,6 @@
 {
   "name": "@react-page/editor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Marco Wettstein",
   "license": "GNU Lesser General Public License v3.0",
   "main": "./lib/index.js",
@@ -20,9 +20,9 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@react-page/core": "^1.0.4",
-    "@react-page/renderer": "^1.0.4",
-    "@react-page/ui": "^1.0.4"
+    "@react-page/core": "^1.0.5",
+    "@react-page/renderer": "^1.0.5",
+    "@react-page/ui": "^1.0.5"
   },
   "publishConfig": {
     "access": "public"
