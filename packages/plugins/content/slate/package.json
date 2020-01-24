@@ -57,5 +57,5 @@
     "./lib/HtmlToSlate/parseHtml.js": "./lib/HtmlToSlate/parseHtml.browser.js",
     "./lib-es/HtmlToSlate/parseHtml.js": "./lib-es/HtmlToSlate/parseHtml.browser.js"
   },
-  "gitHead": "90fc3cb11b865b3cbfd3408c55016bc2eacf018f"
+  "gitHead": "2ff40c835eb89ae530b3ed159b89e627e2e14084"
 }
