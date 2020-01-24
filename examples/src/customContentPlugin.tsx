@@ -1,4 +1,4 @@
-import { createContentPlugin } from '@react-page/create-plugin-materialui';
+import { createContentPlugin } from '@henrylatour/create-plugin-materialui';
 import React from 'react';
 
 export default createContentPlugin<{

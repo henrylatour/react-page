@@ -1,6 +1,5 @@
-import slate from '@react-page/plugins-slate';
-import '@react-page/plugins-slate/lib/index.css';
-import React from 'react';
+import slate from '@henrylatour/plugins-slate';
+import '@henrylatour/plugins-slate/lib/index.css';
 import customSlatePlugin from './customSlatePlugin';
 
 export const defaultSlate = slate(def => ({
@@ -21,17 +20,9 @@ export const reducedSlate = slate(def => ({
   plugins: {
     headings: {
       h2: def.plugins.headings.h2,
-      // you can also customize default slate plugins easily
-      h3: def.plugins.headings.h3(dh3 => {
-        const OriginalH3 = dh3.Component;
-        return {
-          ...dh3,
-          Component: props => <OriginalH3 {...props} style={{ color: 'red' }} />,
-        };
-      }),
+      h3: def.plugins.headings.h3,
     },
     paragraphs: def.plugins.paragraphs,
     emphasize: def.plugins.emphasize,
-    alignment: def.plugins.alignment,
   },
 }));

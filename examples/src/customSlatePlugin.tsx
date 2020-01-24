@@ -1,4 +1,4 @@
-import { pluginFactories } from '@react-page/plugins-slate';
+import { pluginFactories } from '@henrylatour/plugins-slate';
 import React from 'react';
 
 export default pluginFactories.createComponentPlugin<{
@@ -10,7 +10,9 @@ export default pluginFactories.createComponentPlugin<{
   object: 'mark',
   icon: <span>Color</span>,
   Component: props => {
-    return <span style={{ color: props.color }}>{props.children}</span>;
+    return (
+      <span style={{ color: props.data.get('color') }}>{props.children}</span>
+    );
   },
 
   schema: {

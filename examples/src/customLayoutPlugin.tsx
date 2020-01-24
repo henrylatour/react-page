@@ -1,4 +1,4 @@
-import { createLayoutPlugin } from '@react-page/create-plugin-materialui';
+import { createLayoutPlugin } from '@henrylatour/create-plugin-materialui';
 import React from 'react';
 import { defaultSlate, reducedSlate } from './slate';
 

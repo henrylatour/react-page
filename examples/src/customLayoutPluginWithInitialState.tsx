@@ -1,4 +1,4 @@
-import { createLayoutPlugin } from '@react-page/create-plugin-materialui';
+import { createLayoutPlugin } from '@henrylatour/create-plugin-materialui';
 import React from 'react';
 import { defaultSlate, reducedSlate } from './slate';
 
@@ -27,7 +27,7 @@ export default () =>
               state: reducedSlate.createInitialSlateState(({ plugins }) => ({
                 children: [
                   {
-                    plugin: plugins.headings.h3,
+                    plugin: plugins.headings.h2,
                     children: ['Hello world'],
                   },
                   {
