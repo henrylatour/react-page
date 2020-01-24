@@ -20,27 +20,27 @@
  *
  */
 
-import { Plugins } from '@henrylatour/core';
+import { Plugins } from '@react-page/core';
 // The background plugin
-import background, { ModeEnum } from '@henrylatour/plugins-background';
-import '@henrylatour/plugins-background/lib/index.css';
+import background, { ModeEnum } from '@react-page/plugins-background';
+import '@react-page/plugins-background/lib/index.css';
 // The native handler plugin
-import native from '@henrylatour/plugins-default-native';
+import native from '@react-page/plugins-default-native';
 // The divider plugin
-import divider from '@henrylatour/plugins-divider';
+import divider from '@react-page/plugins-divider';
 // The html5-video plugin
-import html5video from '@henrylatour/plugins-html5-video';
-import '@henrylatour/plugins-html5-video/lib/index.css';
+import html5video from '@react-page/plugins-html5-video';
+import '@react-page/plugins-html5-video/lib/index.css';
 // The image plugin
-import { imagePlugin } from '@henrylatour/plugins-image';
-import '@henrylatour/plugins-image/lib/index.css';
+import { imagePlugin } from '@react-page/plugins-image';
+import '@react-page/plugins-image/lib/index.css';
 // The spacer plugin
-import spacer from '@henrylatour/plugins-spacer';
-import '@henrylatour/plugins-spacer/lib/index.css';
+import spacer from '@react-page/plugins-spacer';
+import '@react-page/plugins-spacer/lib/index.css';
 // The video plugin
-import video from '@henrylatour/plugins-video';
-import '@henrylatour/plugins-video/lib/index.css';
-import { ImageUploadType } from '@henrylatour/ui/lib/ImageUpload/types';
+import video from '@react-page/plugins-video';
+import '@react-page/plugins-video/lib/index.css';
+import { ImageUploadType } from '@react-page/ui/lib/ImageUpload/types';
 import customContentPlugin from './customContentPlugin';
 import customContentPluginWithListField from './customContentPluginWithListField';
 import customLayoutPlugin from './customLayoutPlugin';

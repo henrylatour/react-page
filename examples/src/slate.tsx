@@ -1,5 +1,5 @@
-import slate from '@henrylatour/plugins-slate';
-import '@henrylatour/plugins-slate/lib/index.css';
+import slate from '@react-page/plugins-slate';
+import '@react-page/plugins-slate/lib/index.css';
 import customSlatePlugin from './customSlatePlugin';
 
 export const defaultSlate = slate(def => ({
