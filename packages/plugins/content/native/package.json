@@ -1,6 +1,6 @@
 {
   "name": "@react-page/plugins-default-native",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "./lib/index.js",
   "module": "./lib-es/index.js",
   "typings": "./lib/index.d.ts",
@@ -20,7 +20,7 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@react-page/core": "^1.0.8"
+    "@react-page/core": "^1.0.9"
   },
   "publishConfig": {
     "access": "public"
