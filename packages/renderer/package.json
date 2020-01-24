@@ -1,6 +1,6 @@
 {
   "name": "@react-page/renderer",
-  "version": "0.0.3",
+  "version": "0.1.0-henrylatour",
   "main": "./lib/index.js",
   "module": "./lib-es/index.js",
   "typings": "./lib/index.d.ts",
@@ -20,11 +20,11 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@react-page/core": "^0.0.3",
+    "@react-page/core": "^0.1.0-henrylatour",
     "classnames": "^2.2.5"
   },
   "devDependencies": {
-    "@react-page/plugins-slate": "^0.0.3",
+    "@react-page/plugins-slate": "^0.1.0-henrylatour",
     "slate": "^0.57.0",
     "slate-react": "^0.57.0"
   },
