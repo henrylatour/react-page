@@ -32,7 +32,7 @@
         ]
       }
     ],
-    "no-any": true,
+    "no-any": false,
     "no-arg": true,
     "no-bitwise": false,
     "no-console": [
@@ -111,6 +111,6 @@
     ]
   },
   "linterOptions": {
-    "exclude": ["**/build/**/*.*", "**/*.d.ts", ".vscode", "**/node_modules/**/*.*"]
+    "exclude": ["**/build/**/*.*", "**/*.d.ts", ".vscode", "**/node_modules/**/*.*", "**/examples/**/src/**"]
   }
 }

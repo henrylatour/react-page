@@ -11,7 +11,7 @@ export default pluginFactories.createComponentPlugin<{
   icon: <span>Color</span>,
   Component: props => {
     return (
-      <span style={{ color: props.data.get('color') }}>{props.children}</span>
+      <span style={{ color: props.color }}>{props.children}</span>
     );
   },
 
