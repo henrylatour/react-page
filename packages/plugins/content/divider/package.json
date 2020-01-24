@@ -1,6 +1,6 @@
 {
   "name": "@react-page/plugins-divider",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "./lib/index.js",
   "module": "./lib-es/index.js",
   "typings": "./lib/index.d.ts",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@material-ui/icons": "^4.2.1",
-    "@react-page/core": "^1.0.9"
+    "@react-page/core": "^1.0.10"
   },
   "publishConfig": {
     "access": "public"
