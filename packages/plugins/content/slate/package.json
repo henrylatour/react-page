@@ -1,6 +1,6 @@
 {
   "name": "@react-page/plugins-slate",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "./lib/index.js",
   "module": "./lib-es/index.js",
   "typings": "./lib/index.d.ts",
@@ -25,9 +25,9 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@react-page/core": "^1.0.7",
-    "@react-page/create-plugin-materialui": "^1.0.7",
-    "@react-page/ui": "^1.0.7",
+    "@react-page/core": "^1.0.8",
+    "@react-page/create-plugin-materialui": "^1.0.8",
+    "@react-page/ui": "^1.0.8",
     "deep-rename-keys": "^0.2.1",
     "is-hotkey": "0.1.4",
     "jsdom": "^15.1.1",
