@@ -1,6 +1,6 @@
 {
   "name": "@react-page/create-plugin-materialui",
-  "version": "0.0.2-hl",
+  "version": "0.0.3-hl.0",
   "main": "./lib/index.js",
   "module": "./lib-es/index.js",
   "sideEffects": false,
@@ -23,8 +23,8 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@react-page/core": "^0.0.2-hl",
-    "@react-page/ui": "^0.0.2-hl",
+    "@react-page/core": "^0.0.3-hl.0",
+    "@react-page/ui": "^0.0.3-hl.0",
     "lodash.debounce": "^4.0.8",
     "uniforms": "~2.5.0",
     "uniforms-bridge-json-schema": "~2.5.0",
