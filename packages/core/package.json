@@ -1,6 +1,6 @@
 {
   "name": "@react-page/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./lib/index.js",
   "module": "./lib-es/index.js",
   "typings": "./lib/index.d.ts",
